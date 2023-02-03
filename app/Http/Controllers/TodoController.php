@@ -7,12 +7,9 @@ use App\Http\Requests\UpdateTodoRequest;
 use App\Models\Project;
 use App\Models\Todo;
 use Illuminate\Http\Request;
-use App\Traits\ViewCounter;
 
 class TodoController extends Controller
 {
-    use ViewCounter;
-
     /**
      * Display a listing of the resource.
      *
